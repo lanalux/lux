@@ -1,0 +1,646 @@
+body {
+    color: #fff;
+    font-family: sans-serif;
+    margin:0;
+    padding:0;
+}
+
+h1{
+    font-size: 50px;
+}
+
+
+h3{
+    font-size: 30px;
+    
+    /* margin-block-start: 0;
+    margin-block-end: 0; */
+}
+
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ddd;
+}
+
+.home {
+    background: url("images/bg-home.jpg") #000 no-repeat top center;
+    background-size: cover;
+
+    background-attachment: fixed;
+}
+
+.goodies {
+    background: url("images/bg-goodies.jpg") #000 no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.strain {
+    background: url("images/bg-strain.jpg") #000 no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.thisisgamedev {
+    background: url("images/bg-thisisgamedev.jpg") #000 no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.events {
+    background: url("images/bg-events.jpg") #000 no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.headshot {
+    background: url("images/bg-headshot.jpg") #000 no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.lanalux {
+    background: url("images/bg-lanalux.jpg") #000 no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main {
+    width: 60%;
+    max-width: 1200px;
+    margin: 200px auto 130px auto;
+    text-align: center;
+}
+
+.cta {
+
+    margin: 50px auto;
+}
+.cta a{
+    background-color: rgba(255,255,255,0.1);
+    padding: 20px 20px;
+    /* border-radius: 7px; */
+    max-width: 180px;
+    font-weight: bold;
+    line-height: 140%;
+    text-decoration: uppercase;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.cta a:hover{
+    background-color: rgba(255,255,255,1);
+    color: #333;
+}
+
+#icon {
+    width: 50px;
+    float: left;
+    padding: 30px;
+}
+
+#mobile-icon  {
+    width: 50px;
+    padding: 30px;
+}
+
+
+#icon img, #mobile-icon img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0;
+}
+
+
+.general{
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+#menu {
+    width: 720px;
+    max-width: 100%;
+    float: right;
+    padding: 30px 30px 0 0;
+}
+
+
+#menu ul li {
+    text-align: left;
+    float: left;
+    width: 99px;
+    padding: 0 10px;
+    font-size: 12px;
+    border-left: 1px solid rgba(255,255,255,0.5);
+    border-bottom: 0;
+}
+
+#menu ul li a {
+    color: rgba(255,255,255,0.5);
+}
+
+#menu ul li .title {
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(255,255,255,1);
+    /* letter-spacing: 2px; */
+}
+
+
+#mobile-icon {
+    display: none;
+}
+
+#mobile-menu {
+    width: 100%;
+    float: none;
+    padding: 0;
+}
+
+#mobile-menu ul li {
+    text-align: center;
+    float: none;
+    width: 90%;
+    padding: 30px 5%;
+    font-size: 12px;
+    border-left: 0;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    background: rgba(0,0,0,0.3);
+}
+
+#mobile-menu ul li:last-child {
+    border-bottom: 0;
+}
+
+#mobile-menu ul li:hover {
+    background: rgba(0,0,0,0.7);
+}
+
+
+
+
+
+
+
+
+.logo{
+    width: 400px;
+    max-width: 95%;
+    margin: 0 auto 50px auto;
+}
+.logo img {
+    width:100%;
+}
+
+
+
+
+
+#lux-logo {
+    margin-top: 400px;
+    width:280px;
+    max-width:90%;
+}
+
+#strain-logo {
+    width:380px;
+}
+
+#goodies-logo {
+    width:600px;
+}
+
+#headshot-logo {
+    width:500px;
+}
+
+#thisisgamedev-logo {
+    width:800px;
+}
+#events-logo {
+    width: 600px;
+}
+
+
+
+.twitch{
+    margin: auto;
+    width: 900px;
+    max-width:90%;
+    text-align: center;
+}
+
+.twitch img{
+    width: 100%;
+}
+
+.twitch img:hover{
+    filter: saturate(0.2) brightness(0.7);
+}
+
+/* //////////////////////// EVENTS ////////////////////////// */
+
+.event-list{
+    width:900px;
+    max-width: 90%;
+    margin:auto;
+    text-align: center;
+}
+/* .event-list p {
+    line-height: 50%;
+} */
+
+.event-list ul li {
+    padding: 20px;
+    /* line-height: 150%; */
+}
+
+
+
+.event-list .left{
+    width: 48%;
+    float: left;
+    text-align: right;
+    
+}
+.event-list .right{
+    width: 48%;
+    float: right;
+    text-align: left;
+    
+}
+
+.event-list ul.upcoming .left{
+    /* width: 280px; */
+    width: 30%;
+    float: left;
+    text-align: right;
+    
+}
+.event-list ul.upcoming .mid{
+    /* width: 280px; */
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.event-list ul.upcoming .right{
+    /* width: 150px; */
+    width: 30%;
+    float: left;
+    text-align: center;
+    /* border: 1px solid #fff; */
+    /* padding: 20px; */
+    
+}
+.event-list ul.upcoming .right div {
+    
+    width: 150px;
+    border: 1px solid #fff;
+    padding: 20px;
+}
+
+
+
+
+/* //////////////////////// FULL VIDEO ////////////////////////// */
+
+.full-video{
+    width: 100%;
+    height: 500px;
+    background: #000;
+    margin: 100px 0;
+    text-align: center;
+}
+
+.stream-preview{
+    width: 900px;
+    margin: auto;
+}
+
+.stream-preview img{
+    width: 100%;
+}
+
+/* //////////////////////// GALLERY ////////////////////////// */
+
+.gallery {
+    width: 100%;
+}
+
+.gallery ul{
+    width:990px;
+    max-width: 95%;
+    margin: auto;
+    text-align: center;
+}
+
+.gallery ul li {
+    width: 31%;
+    padding: 0 1%;
+    float: left;
+}   
+
+.gallery ul li img {
+    width: 100%;
+}
+
+/* //////////////////////// CONTACT ////////////////////////// */
+
+.contact{
+    width: 80%;
+    margin: 150px auto 150px auto;
+    text-align: center;
+}
+
+/* //////////////////////// SPONSOR LIST ////////////////////////// */
+
+
+.sponsor-list{
+    width: 900px;
+    max-width: 90%;
+    text-align: center;
+    margin: 150px auto 0 auto;
+}
+
+.sponsor-list ul li{
+    width: 300px;
+    float: left;
+}
+
+.sponsor-list ul li img{
+    width: 85%;
+}
+
+
+
+
+/* //////////////////////// PODUCT LIST ////////////////////////// */
+
+.product-list{
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.product-list ul li{
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+.product-list ul li h3{
+    font-family: "Kreon", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    margin:0;
+}
+
+
+.headshot .product-list ul li h3{
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.product-list ul li .info {
+    display: none;
+    text-align: center;
+}
+
+.product-list ul li:hover .info {
+    padding: 380px 100px 0 100px ;
+    display: block;
+}
+
+
+.headshot .product-list ul li:hover .info {
+    padding: 280px 100px 0 100px ;
+    display: block;
+}
+
+.product-list ul li{
+    filter: saturate(0.2) brightness(0.7);
+}
+
+.product-list ul li:hover{
+    filter: saturate(1) brightness(1);
+}
+
+.product-list .grad {
+    display: none;
+}
+
+.product-list li:hover .grad {
+    width: 100%;
+    height: 500px;
+    background: url("images/grad.png") repeat-x;
+    display: block;
+}
+
+
+.product-list p {
+    margin-block-start: 10px;
+    margin-block-end: 0;
+}
+
+
+/* //////////////////////// GOODIES ////////////////////////// */
+
+#cozyRoomPack{
+    background: url("images/goodies/005.jpg") #000 no-repeat top center;
+    background-size: cover;
+}
+
+#cozyRoomPack2{
+    background: url("images/goodies/002.jpg") #000 no-repeat top center;
+    background-size: cover;
+}
+
+#cozyRoomPack3{
+    background: url("images/goodies/003.jpg") #000 no-repeat top center;
+    background-size: cover;
+}
+
+#cozyRoomPack4{
+    background: url("images/goodies/004.jpg") #000 no-repeat top center;
+    background-size: cover;
+}
+
+
+#guest1{
+    background: url("images/headshot/001.jpg") #000 no-repeat top center;
+    background-size: cover;
+}
+
+#guest2{
+    background: url("images/headshot/002.jpg") #000 no-repeat top center;
+    background-size: cover;
+}
+
+#guest3{
+    background: url("images/headshot/003.jpg") #000 no-repeat top center;
+    background-size: cover;
+}
+
+#guest4{
+    background: url("images/headshot/004.jpg") #000 no-repeat top center;
+    background-size: cover;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+
+.temp{
+    height:200px;
+    width: 100%;
+}
+
+/* ////////////////////////  ////////////////////////// */
+
+
+@media only screen and (max-width: 1400px) {
+    
+    #lux-logo {
+        margin-top: 350px;
+    }
+
+    .headshot .product-list ul li:hover .info {
+        padding: 260px 100px 0 100px ;
+        display: block;
+    }
+    
+}
+@media only screen and (max-width: 1250px) {
+    .product-list ul li:hover .info h3 {
+        font-size: 30px;
+    }
+    .headshot .product-list ul li:hover .info {
+        padding: 220px 100px 0 100px ;
+        display: block;
+    }
+    
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .headshot .product-list ul li:hover .info {
+        padding: 170px 100px 0 100px ;
+        display: block;
+    }
+
+
+     
+    
+}
+
+@media only screen and (min-width: 951px) {
+    .show{display:none;}
+}
+
+
+
+@media only screen and (max-width: 950px) {
+    
+    #lux-logo {
+        margin-top: 20px;
+    }
+
+    #mobile-icon {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+    }
+    #icon {
+        display: none;
+    }
+
+
+    .product-list ul li{
+        width: 100%;
+        height: 500px;
+        float: left;
+    }
+
+     .product-list ul li .info {
+        display: block;
+        text-align: center;
+        padding: 320px 100px 0 100px ;
+    }
+
+    .product-list ul li:hover .info {
+       display: block;
+       text-align: center;
+       padding: 320px 100px 0 100px ;
+    }
+   
+    .headshot .product-list ul li .info {
+        display: block;
+        text-align: center;
+        padding: 170px 100px 0 100px ;
+    }
+
+    .headshot .product-list ul li:hover .info {
+        display: block;
+        text-align: center;
+        padding: 170px 100px 0 100px ;
+    }
+
+    .product-list ul li:hover .info h3 {
+        font-size: 40px;
+    }
+
+    .headshot .product-list ul li:hover .info h3 {
+        font-size: 30px;
+    }
+
+    .product-list .grad {
+        width: 100%;
+        height: 500px;
+        background: url("images/grad.png") repeat-x;
+        display: block;
+    }
+    
+    .product-list ul li{
+        filter: saturate(1) brightness(1);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .gallery ul li {
+        width: 90%;
+        padding: 0 0 30px 0;
+        float: none;
+        margin:auto;
+        text-align:center;
+    }    
+}
+
+.clr {
+    clear:both;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+
