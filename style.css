@@ -497,6 +497,11 @@ ul {
     background-size: cover;
 }
 
+
+#mobile-menu ul li .title{
+    font-size: 20px;
+}
+
 .footer{
     width: 100%;
     text-align: center;
@@ -539,6 +544,10 @@ ul {
 
 
 @media only screen and (max-width: 1100px) {
+    
+    .main {
+        margin-top: 100px;
+    }
     .headshot .product-list ul li:hover .info {
         padding: 170px 100px 0 100px ;
         display: block;
@@ -558,7 +567,7 @@ ul {
 @media only screen and (max-width: 950px) {
     
     .main {
-        margin-top: 150px;
+        margin-top: 100px;
     }
     #lux-logo {
         margin-top: 0px;
