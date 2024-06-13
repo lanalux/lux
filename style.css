@@ -558,7 +558,7 @@ ul {
 @media only screen and (max-width: 950px) {
     
     #lux-logo {
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
     #mobile-icon {
