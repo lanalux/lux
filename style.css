@@ -517,7 +517,7 @@ ul {
 @media only screen and (max-width: 1400px) {
     
     #lux-logo {
-        margin-top: 350px;
+        margin-top: 250px;
     }
 
     .headshot .product-list ul li:hover .info {
@@ -557,6 +557,9 @@ ul {
 
 @media only screen and (max-width: 950px) {
     
+    .main {
+        margin-top: 150px;
+    }
     #lux-logo {
         margin-top: 0px;
     }
@@ -571,7 +574,6 @@ ul {
     #icon {
         display: none;
     }
-
 
     .product-list ul li{
         width: 100%;
