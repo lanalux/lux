@@ -82,7 +82,7 @@ a:hover {
     background-color: rgba(255,255,255,0.1);
     padding: 20px 20px;
     /* border-radius: 7px; */
-    max-width: 180px;
+    /* max-width: 180px; */
     font-weight: bold;
     line-height: 140%;
     text-decoration: uppercase;
@@ -303,7 +303,7 @@ ul {
 }
 .event-list ul.upcoming .right div {
     
-    width: 150px;
+    width: 100%;
     border: 1px solid #fff;
     padding: 20px;
 }
@@ -372,7 +372,7 @@ ul {
 }
 
 .sponsor-list ul li{
-    width: 300px;
+    width: 33%;
     float: left;
 }
 
@@ -526,7 +526,7 @@ ul {
     }
 
     .headshot .product-list ul li:hover .info {
-        padding: 260px 100px 0 100px ;
+        padding: 260px 20px 0 20px ;
         display: block;
     }
     
@@ -536,10 +536,9 @@ ul {
         font-size: 30px;
     }
     .headshot .product-list ul li:hover .info {
-        padding: 220px 100px 0 100px ;
+        padding: 220px 20px 0 20px ;
         display: block;
     }
-    
 }
 
 
@@ -549,10 +548,19 @@ ul {
         margin-top: 0;
     }
     .headshot .product-list ul li:hover .info {
-        padding: 170px 100px 0 100px ;
+        padding: 170px 20px 0 20px ;
         display: block;
     }
-
+    .gallery ul {
+        max-width: 100%;
+    }
+    .gallery ul li {
+        width: 90%;
+        padding: 0 0 30px 0;
+        float: none;
+        margin:auto;
+        text-align:center;
+    }    
 
      
     
@@ -568,6 +576,7 @@ ul {
     
     .main {
         margin-top: 35px;
+        width: 80%;
     }
     #lux-logo {
         margin-top: 100px;
@@ -593,30 +602,37 @@ ul {
      .product-list ul li .info {
         display: block;
         text-align: center;
-        padding: 320px 100px 0 100px ;
+        padding: 220px 100px 0 100px ;
     }
 
     .product-list ul li:hover .info {
        display: block;
        text-align: center;
-       padding: 320px 100px 0 100px ;
+       padding: 220px 100px 0 100px ;
     }
    
     .headshot .product-list ul li .info {
         display: block;
         text-align: center;
-        padding: 170px 100px 0 100px ;
+        padding: 130px 40px 0 40px ;
     }
 
     .headshot .product-list ul li:hover .info {
         display: block;
         text-align: center;
-        padding: 170px 100px 0 100px ;
+        padding: 130px 100px 0 100px ;
     }
 
     .product-list ul li:hover .info h3 {
         font-size: 40px;
     }
+    
+    .sponsor-list ul li{
+        width: 50%;
+        float: left;
+    }
+    
+
 
     .headshot .product-list ul li:hover .info h3 {
         font-size: 30px;
@@ -635,13 +651,10 @@ ul {
 }
 
 @media only screen and (max-width: 800px) {
-    .gallery ul li {
-        width: 90%;
-        padding: 0 0 30px 0;
+    .sponsor-list ul li {
         float: none;
-        margin:auto;
-        text-align:center;
-    }    
+        margin: auto;
+    } 
 }
 
 .clr {
