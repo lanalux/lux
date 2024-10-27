@@ -11,11 +11,11 @@
         var numOfStreams = 3;
         const streamNames = ["eliasn97", "papaplatte", "rostislav_999"];
 
-        for (let s in streamNames){
+        for (let i = 0; i < 3; i++){
             new Twitch.Embed("twitch-embed", {
                 width: 854,
                 height: 480,
-                channel: s,
+                channel: "eliasn97",
                 parent: [parentURl]
             });
         }
