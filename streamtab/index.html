@@ -12,13 +12,12 @@
         const streamNames = ["eliasn97", "papaplatte", "rostislav_999"];
 
         for (const s in streamNames){
-            
-        new Twitch.Embed("twitch-embed", {
-            width: 854,
-            height: 480,
-            channel: s,
-            parent: [parentURl]
-          });
+            new Twitch.Embed("twitch-embed", {
+                width: 854,
+                height: 480,
+                channel: s,
+                parent: [parentURl]
+            });
         }
 
         // new Twitch.Embed("twitch-embed", {
