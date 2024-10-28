@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <head>
     <style type = "text/css">
-        .stream-window {
-            padding: 30px;
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        .stream-window iframe {
+            background: #33fedd;
         }
 
     </style>
     <title>Stream Tab</title>
 </head>
 <body>
-    1
+    2
     <div id = "twitch-embed1" class = "stream-window"></div>
     <div id = "twitch-embed2" class = "stream-window"></div>
     <div id = "twitch-embed3" class = "stream-window"></div>
@@ -18,18 +22,40 @@
     <script src ="https://embed.twitch.tv/embed/v1.js"></script>
 
     <script type = "text/javascript">
+
+
     
         var parentURL = "lanalux.games";
         var numOfStreams = 3;
         const streamNames = ["eliasn97", "Jynxzi", "rostislav_999"];
 
-        for (let i = 0; i < 3; i++){
-            new Twitch.Embed("twitch-embed1", {
-                width: 854,
-                height: 480,
-                channel: streamNames[i],
-                parent: [parentURL]
-            });
+        var streamWidth = 400;
+        var streamHeight = 300;
+        var fullWidth = screen.width;
+        var numOfCol = 3;
+
+        window.onload = function(){
+            SetSize();
+            DisplayStreams();
+        }
+
+        function SetSize(){
+            var widthPlusPadding = fullWidth / numOfCol;
+            streamPadding = Math.ceil(widthPlusPadding * 0.04);
+            streamWidth = Math.floor(widthPlusPadding);
+
+            // streamWidth = 450;
+        }
+
+        function DisplayStreams(){
+            for (let i = 0; i < 3; i++){
+                new Twitch.Embed("twitch-embed1", {
+                    width: streamWidth,
+                    height: streamHeight,
+                    channel: streamNames[i],
+                    parent: [parentURL]
+                });
+            }
         }
 
         // var embed1 = new Twitch.Embed("twitch-embed1", {
