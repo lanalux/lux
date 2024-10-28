@@ -6,7 +6,7 @@
     <div id = "twitch-embed2"></div>
     <div id = "twitch-embed3"></div>
 
-test213
+test2135
     <script src ="https://embed.twitch.tv/embed/v1.js"></script>
 
     <script type = "text/javascript">
@@ -15,14 +15,14 @@ test213
         var numOfStreams = 3;
         const streamNames = ["eliasn97", "Jynxzi", "rostislav_999"];
 
-        // for (let i = 0; i < 3; i++){
-        //     new Twitch.Embed("twitch-embed", {
-        //         width: 854,
-        //         height: 480,
-        //         channel: "eliasn97",
-        //         parent: [parentURl]
-        //     });
-        // }
+        for (let i = 0; i < 3; i++){
+            new Twitch.Embed("twitch-embed", {
+                width: 854,
+                height: 480,
+                channel: streamNames[i],
+                parent: [parentURL]
+            });
+        }
 
         var embed1 = new Twitch.Embed("twitch-embed1", {
             width: 854,
